@@ -31,6 +31,11 @@ console.log(typeof B);
 console.log(A==B);
 console.log(A===B);
 
+/**Crea una variable mochila que sea un array de elementos, 
+ * desarrolla la lógica para que sí mochila tiene más de 10 elementos muestre por consola el mensaje 
+ * “No puedo cargar con tantas cosas”, sí mochila contiene entre 10 y 2 elementos se muestre por consola “Que bien voy con mi mochila” y 
+ * si no muestre por consola “Creo q no necesito una mochila”
+ */
 const mochila=[1,2,3,4,5,6,7,8,9,10];
     if(mochila.length>10){
         console.log("No puedo cargar con tantas cosas");
@@ -60,13 +65,17 @@ const arrayBucle=[];
         }
         console.log(arrayBucle);
 
-/*
+
+/** Dado el siguiente array, [‘Con’, ‘Sofia’, ‘aprendiendo’, ‘bucles’], 
+*recorrelo utilizando el bucle “for of” y muestra por consola todos sus elementos, 
+*después recórrelo utilizando el bucle “for in” mostrando también por consola todos sus elementos
+*/
 const Dotaheros=['necro', 'ursa', 'od', 'pl']
         let zhenrong=" ";
             for (let dotahero of Dotaheros){
-                text += dotahero +" ";
-            }
-            console.log(text);*/
+                zhenrong += dotahero +" ";
+            
+            console.log(zhenrong);
 
 const arrayUno=['Con', 'Sofia', 'aprendiendo', 'bucles'];
     let text=" ";
@@ -76,6 +85,10 @@ const arrayUno=['Con', 'Sofia', 'aprendiendo', 'bucles'];
         console.log(text);
         console.log(arrayUno[2]);
 
+
+/**Crea un bucle utilizando “while” que itere 20 veces y muestre por consola 
+*“Patata” cada vez que el número de la iteración sea múltiplo de 3
+*/ 
 
 console.log("loop 20times")
 let i =0;
@@ -121,6 +134,10 @@ function resta(a,b){
 }
 console.log(resta(3,2));
 
+
+/**Crea la función duplicaNumero debe recibir un tipo number y devolver el doble del valor recibido. 
+*Si la función no recibe un dato tipo number debe devolver el string ‘Debo ser ejecutada con un número’
+*/
 
 function duplicaNumero(x){
     if(x!=null){

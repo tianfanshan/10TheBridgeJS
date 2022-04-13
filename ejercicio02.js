@@ -70,11 +70,11 @@ const arrayBucle=[];
 *recorrelo utilizando el bucle “for of” y muestra por consola todos sus elementos, 
 *después recórrelo utilizando el bucle “for in” mostrando también por consola todos sus elementos
 */
-const Dotaheros=['necro', 'ursa', 'od', 'pl']
+const Dotaheros=['necro', 'ursa', 'od', 'pl'];
         let zhenrong=" ";
             for (let dotahero of Dotaheros){
                 zhenrong += dotahero +" ";
-            
+            }
             console.log(zhenrong);
 
 const arrayUno=['Con', 'Sofia', 'aprendiendo', 'bucles'];
